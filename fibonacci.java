@@ -24,7 +24,7 @@ public class fibonacci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the number of terms for the Fibonacci sequence:");
+        System.out.println("Enter the no. of terms for the Fibonacci sequence:");
         int n = scanner.nextInt();
 
         printFibonacci(n);
